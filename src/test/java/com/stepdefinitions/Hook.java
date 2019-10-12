@@ -13,8 +13,7 @@ public class Hook {
 	public void before() {
 		System.setProperty("webdriver.chrome.driver", "D:\\gow\\MavenFirst2\\driver\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("http://demo.guru99.com/telecom/index.html");
-
+driver.get("https://www.airnewzealand.co.nz/home-1/");
 	}
 
 	@After
